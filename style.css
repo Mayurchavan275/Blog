@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+  #logo{
+    mix-blend-mode: darken;
+    size: 40px;
+    width: 200px;
+  }
+  #item{
+    padding: 10px;
+    margin: 20px;
+  }
+  #search-bar{
+    width: 490px;
+  }
+  /* #menues{
+    border-bottom: 2px solid rgb(16, 15, 15);
+    margin-top: 10px;
+  } */
+@media(max-width:700px){
+  #search-bar{
+    width: 190px;
+  }
+  #logo{
+    margin-left: 80px;
+  }
+}
+ #offcanvasNavbar{
+  font-weight: 400;
+  font-size: 21px;
+ }
+  /* section second */
+  .section-second{
+    background-image: url(new-year-armag-GregScheidemann-1031795881-6a2245042fb349e6a0.jpg);
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+  }
+  #cardfirst{
+    display: flex;
+    justify-content: center;
+    max-height: 250px;
+    margin-top: 10%;
+    margin-left:-29%;
+    cursor: pointer;
+  }
+  svg{
+    size: 30px;
+    width: 37px;
+    
+  }
+  #section-part{
+    display: none;
+    cursor: pointer;
+  }
+  /* #item{
+    height: 331px;
+    width: 352px;
+    margin: 0px;
+    padding: 0px;
+  } */
+  @media(max-width:700px){
+    .section-second{
+      height: 400px;
+      background-repeat: no-repeat;
+      background-size: auto;
+            
+    }
+    #cardfirst{
+      display: none;
+    }
+    #section-part{
+      display: flex;
+
+    }
+  }
+
+  #navbarNavAltMarkup{
+    padding: 20px;
+    font-weight: 500;
+   }
+
+   #menu{
+     border-bottom: transparent;
+     padding-left: 10px;
+     padding-right: 10px;
+   }
+   #menu:hover{
+    border-bottom: 2px solid rgb(196, 35, 35);
+   }
+   #first-poster{
+    margin-left: 18%;
+    margin-top: 1%;
+    margin-bottom: 10%;
+  }
+
+  #section-second{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-top: 1%;
+    
+  }
+  .card-title{
+    font-weight: 700;
+    font-family:  Helvetica, sans-serif;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  #winter{
+    border-bottom: transparent;
+  }
+  #winter:hover{
+    border-bottom: 2px solid red;
+  }
+  .heading {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 800;
+    margin-top: 49px;
+    margin-right: 0px;
+    /* margin-bottom: 10px; */
+    margin-left: 0px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.card-body svg{
+  margin: -10px;
+}
+.card span{
+  font-size: 13px;
+}
+.droupdown-menu{
+  align-content: space-evenly;
+  align-items:center ;
+  
+}
+#poster{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+.third {
+  justify-content: center;
+  display: flex;
+  width: 75vw;
+  /* background-color: red; */
+  margin: auto;
+  flex-direction: column;
+
+}
+.third span{
+  font-size: 24PX;
+  text-decoration: underline;
+}
+
+#thrid-first img{
+  max-height: 300px;
+  max-width: 350px;
+  justify-content: center;
+  display: flex;
+  width: 75vw;
+  /* background-color: red; */
+  margin: 10px;
+  cursor: pointer;
+}
+#third-first{
+  display: flex;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom:  30px;
+}
+.third-second  P,h6{
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 20PX;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+.third-second p{
+  font-weight: 600;
+  border-bottom: transparent;
+}
+.third-second p:hover{
+  border-bottom:1px solid red ;
+
+}
+#third-second-part{
+  display: none;
+}
+@media(max-width:700PX){
+  .third{
+    margin: auto;
+  }
+  #third-first img{
+    height: 200PX;
+    width: 550px;
+  }
+  /* .third-first{
+    display: flex;
+    flex-direction: none;
+  } */
+  .third-second{
+    display: none;
+  }
+  #third-second-part{
+    display: block;
+  }
+}
